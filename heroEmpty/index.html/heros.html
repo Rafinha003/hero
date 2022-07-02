@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css"> 
+    <link rel="stylesheet" href="../css/heros.css">
+
+    <script src="../js/main.js" defer></script>
+    <title>HEROES</title>
+</head> 
+
+  <header>
+    <img id="inicio" src="../img/mask.png">
+    
+    <div id="cabeçalho">
+      <p id="p_header">UNIVERSAL</p>
+      <h1 id="h1_header">SUPER HEROES</h1>
+      <p id="p_header">COLLETION</p>
+    </div>
+   
+  </header>
+
+<body>
+<main id="principal">
+
+<div id="centralização">
+   <div id="centralizaçãoforms">
+        <div class="form">
+        <p id="add">ADICIONAR   |</p>
+        <form id="nome">
+            <label  for="fname"></label>
+            <input type="text" id="fname" name="fname" placeholder="NOME..">
+        </form>
+
+      <form>
+    <label for="atributo" placeholder="ATRIBUTO"></label>
+    <select id="atributo" name="atributo">
+     <option value="ATRIBUTO">ATRIBUTO..</option>
+    <option value="INTELIGÊNCIA">INTELIGÊNCIA</option>
+    <option value="FORÇA">FORÇA</option>
+     <option value="VELOCIDADE">VELOCIDADE</option>
+     <option value="RESISTÊNCIA">RESISTÊNCIA</option>
+     <option value="VELOCIDADE">VELOCIDADE</option>
+     <option value="ALTURA">ALTURA</option>
+     <option value="PESO">PESO</option>
+    </select>
+      </form>
+
+    <form>
+  <label for="comparação"></label>
+  <select id="comparação" name="comparação">
+  <option value="MAIOR QUE">MAIOR QUE</option>
+  <option value="MENOR QUE">MENOR QUE</option>
+   <option value="IGUAL A">IGUAL A</option>
+  </select>
+    </form> 
+        <form p="qualidade">
+            <label for="fnqualidade"></label>
+            <input type="number" id="fnqualidade" name="fnqualidade" >
+</form>
+    <p id="filtrar">FILTRAR</p>
+</div>
+</div>
+
+
+<ul id="heroContainer" class="heroes">
+
+
+</ul>
+
+</div>
+</main>
+<!-- <script src="/heroEmpty/js/js/main.js"></script> -->
+
+    <footer>
+          <p class="final">PISO 2019- no rigths reserved!</p> 
+    </footer>
+</body>
+</html>
